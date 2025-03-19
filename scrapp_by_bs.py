@@ -3,7 +3,7 @@ import bs4
 import re
 from datetime import datetime
 
-from Homework.Decorators.with_params import logger
+from with_params import logger
 
 start = datetime.now()
 path = 'bs.log'
